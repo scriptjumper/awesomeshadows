@@ -4,14 +4,14 @@ Get perfect shadows every time for the non-designer.
 
 # Installation
 
-`npm i shadowizard --save`
+`npm i awesomeshadows --save`
 
 Then...
 
 ```
-import { shadowizard } from 'shadowizard';
+import { awesomeshadows } from 'awesomeshadows';
 
-shadowizard({
+awesomeshadows({
     shadow_type: 'soft',
     padding: false
 });
@@ -19,7 +19,7 @@ shadowizard({
 
 ## Options
 
-Shadowizard supports 2 options, both of which are optional:
+Awesomeshadows supports 2 options, both of which are optional:
 
 - _shadow_type_ - _hard | soft_ (Defaults to soft)
 - _padding_ - _boolean_ (Defaults to false)
